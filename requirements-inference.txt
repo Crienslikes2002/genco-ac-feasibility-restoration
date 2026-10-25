@@ -1,0 +1,19 @@
+-r requirements.txt
+# Versions used for the portable CPU reinference check (Python 3.12).
+# Install platform-compatible PyTorch/PyG/torch-scatter wheels first.
+# These are version pins, not CUDA wheel URLs. macOS uses native CPU wheels.
+torch==2.8.0
+torch-geometric==2.8.0.post1
+torch-scatter==2.1.2
+numpy==2.5.3
+pandas==3.0.6
+pyyaml==6.0.3
+lightning==2.6.6
+pytorch-lightning==2.6.6
+torchmetrics==1.9.0
+mlflow==3.16.1
+matplotlib==3.11.2
+seaborn==0.13.2
+networkx==3.7
+scipy==1.18.1
+threadpoolctl==3.7.0

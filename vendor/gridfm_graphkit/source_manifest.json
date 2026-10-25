@@ -1,0 +1,182 @@
+{
+  "source": "Local GridFM GraphKit inference source, copied unchanged",
+  "upstream": "https://github.com/gridfm/gridfm-graphkit",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "path": "gridfm_graphkit/__init__.py",
+      "sha256": "0b1f1cf9fa9da7f0653b14f6bbac19d5d79481d914450fe35ba2a01d6648fe9d",
+      "bytes": 211
+    },
+    {
+      "path": "gridfm_graphkit/__main__.py",
+      "sha256": "296b021596932ab4d748ae9c85a49b2f7cef5b450ffb363d7fba6990dadfd37e",
+      "bytes": 15263
+    },
+    {
+      "path": "gridfm_graphkit/cli.py",
+      "sha256": "afe5b5aaee6de148ed2b1021b3f084b70cd41f94e7ea3bc44db5c150387cb25c",
+      "bytes": 16870
+    },
+    {
+      "path": "gridfm_graphkit/datasets/__init__.py",
+      "sha256": "006b91ece86c03bcd7f9ce9c246e1e8f955d9c69824afcb1ee2687bcd37bd88f",
+      "bytes": 367
+    },
+    {
+      "path": "gridfm_graphkit/datasets/globals.py",
+      "sha256": "04795c01e2e3422b3297c193864d70daacd1232c83caa884e158ca78721b0080",
+      "bytes": 1668
+    },
+    {
+      "path": "gridfm_graphkit/datasets/hetero_powergrid_datamodule.py",
+      "sha256": "8cd2617a354c2ff3231e8693f792c0b9e49206ffdbc018c06da3c832b02a9669",
+      "bytes": 19171
+    },
+    {
+      "path": "gridfm_graphkit/datasets/hetero_preprocess.py",
+      "sha256": "345ea42b448454411faf7cfb0176bf1aabd2141f35e1d2aca97d141b8e3aadfa",
+      "bytes": 11621
+    },
+    {
+      "path": "gridfm_graphkit/datasets/masking.py",
+      "sha256": "1c0154f46619cc858ae36fce98537239e6ba6c635a9ae5b56b21c46ac624685b",
+      "bytes": 10427
+    },
+    {
+      "path": "gridfm_graphkit/datasets/normalizers.py",
+      "sha256": "ddef83279311f3f5199ccae31008d683c90ded0d6011ef87fff1a1fba3baccfc",
+      "bytes": 25849
+    },
+    {
+      "path": "gridfm_graphkit/datasets/postprocessing.py",
+      "sha256": "bcbe8bd51322836d3d8ce41292ac02ca254bc643fec68e05724d0e68306e25c7",
+      "bytes": 2800
+    },
+    {
+      "path": "gridfm_graphkit/datasets/powergrid_hetero_dataset.py",
+      "sha256": "36420d08b76d7b9ff5f4ace0360b4f438483970c488b4d59f98e9d622343b770",
+      "bytes": 3914
+    },
+    {
+      "path": "gridfm_graphkit/datasets/task_transforms.py",
+      "sha256": "92f37bfbc3666f69c2652f0e5bd7b94cff3faa33be185ce95297facc86053543",
+      "bytes": 2053
+    },
+    {
+      "path": "gridfm_graphkit/datasets/transforms.py",
+      "sha256": "0ce808ee023db96010c680d6e258d271e6eff5d1a58c148edb9a11f9e01b0517",
+      "bytes": 4119
+    },
+    {
+      "path": "gridfm_graphkit/datasets/utils.py",
+      "sha256": "d5ed430d914496b21d2b5855853306fb74b4a6c59c903067a849a61a208a201a",
+      "bytes": 4416
+    },
+    {
+      "path": "gridfm_graphkit/io/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "gridfm_graphkit/io/param_handler.py",
+      "sha256": "5f51c905fa4edb75b1e98c2d4b90de0f78fcaecd51ea33c16be0b0aedc4f07c9",
+      "bytes": 4563
+    },
+    {
+      "path": "gridfm_graphkit/io/registries.py",
+      "sha256": "cc4a1766f30d2926bb87444669b08160089cbcfda3bffcdd59f6f5cebb689ce7",
+      "bytes": 1448
+    },
+    {
+      "path": "gridfm_graphkit/models/__init__.py",
+      "sha256": "0d056e89ab50485d9bc71a73ff66871b8ae2e2c722eec17610bf625986b29a1d",
+      "bytes": 300
+    },
+    {
+      "path": "gridfm_graphkit/models/gnn_heterogeneous_gns.py",
+      "sha256": "2818209297b3ef2d73c03714dc1f90c42fe12f01f99e472173341b73ed65aa99",
+      "bytes": 11825
+    },
+    {
+      "path": "gridfm_graphkit/models/utils.py",
+      "sha256": "2a4f2374106df7396d10e1ee2bc31505e96948780a55e5f3c595c5f95b85ef01",
+      "bytes": 6772
+    },
+    {
+      "path": "gridfm_graphkit/tasks/__init__.py",
+      "sha256": "a3dff95f6c7d5336bc51643bdeac00c1bedd7de8c73f7e3b2f22411839431e6c",
+      "bytes": 258
+    },
+    {
+      "path": "gridfm_graphkit/tasks/base_task.py",
+      "sha256": "8682223db3133c2ac604f7509bcaba4fbe4749440181c21ed43bdf570d3c3e00",
+      "bytes": 4953
+    },
+    {
+      "path": "gridfm_graphkit/tasks/opf_ac_dc_baseline.py",
+      "sha256": "511f8cee3a16561975de422546c1f937af401c68ecf38a115e7ce1b07c2e3697",
+      "bytes": 13046
+    },
+    {
+      "path": "gridfm_graphkit/tasks/opf_task.py",
+      "sha256": "86bfcc4e3518410b39bb4c3fe5da104a89cc6c6e59c54643493c00b31757ff2f",
+      "bytes": 24332
+    },
+    {
+      "path": "gridfm_graphkit/tasks/pf_ac_dc_baseline.py",
+      "sha256": "4a42de4268ba08f8f5a8c176609ddf45f3eb4825be943a4fde8ce289d1732473",
+      "bytes": 7118
+    },
+    {
+      "path": "gridfm_graphkit/tasks/pf_task.py",
+      "sha256": "50cf846a24cfd95f1cd8139c5fc560a770a4c2ae2540f07b3b96342b8a6b0f5f",
+      "bytes": 17117
+    },
+    {
+      "path": "gridfm_graphkit/tasks/reconstruction_tasks.py",
+      "sha256": "cee61efe30b3be574ac8721e14dc94c9b3e64abbfc651b0050f015ecd590eef3",
+      "bytes": 3823
+    },
+    {
+      "path": "gridfm_graphkit/tasks/se_task.py",
+      "sha256": "f8726fa35a3d2a66364a5c4d6334161e46c88edcecfd801e37f77d39f9b90ec3",
+      "bytes": 6956
+    },
+    {
+      "path": "gridfm_graphkit/tasks/utils.py",
+      "sha256": "d5a6278a5520c2fb642d230891bc0c0b64cb1b3f26fa8b2a151c0efa76c01edb",
+      "bytes": 6787
+    },
+    {
+      "path": "gridfm_graphkit/training/__init__.py",
+      "sha256": "1d761e930e4e0b561f21f3d27046faf95f9dd3956c306ea52ccb078fe90ea200",
+      "bytes": 289
+    },
+    {
+      "path": "gridfm_graphkit/training/callbacks.py",
+      "sha256": "0cd60c222d2d13796be1a613a8c214178511d75350da141c3ca20b24deac5d32",
+      "bytes": 5867
+    },
+    {
+      "path": "gridfm_graphkit/training/loss.py",
+      "sha256": "24ec5d9f4edaacfcdd8ee8715a5b16369aaa152e1d88128233c28c50af145665",
+      "bytes": 11285
+    },
+    {
+      "path": "gridfm_graphkit/utils/utils.py",
+      "sha256": "6b6cc37c68a1e3a0dfad4c8a8603bf1ec48de486e8d306d90373d9feb405e796",
+      "bytes": 1602
+    },
+    {
+      "path": "gridfm_graphkit/utils/visualization.py",
+      "sha256": "1da0eeb5e1610bf776e95e17ac3a1e30acc4c5802f81296d4f8327631489f5a6",
+      "bytes": 14277
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    }
+  ]
+}
